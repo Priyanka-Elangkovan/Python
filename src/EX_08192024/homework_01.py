@@ -9,13 +9,13 @@ num1=int(num1)
 
 if num1%4 == 0:
     if num1%100 ==0:
-        print("num is div by 100")
+        #print("num is div by 100")
         if num1%400 ==0 :
-           print("no. div by 400")
+           #print("no. div by 400")
            print(f"year {num1} is a leap year")
 
         else:
-            print("num is not div by 400")
+            #print("num is not div by 400")
             print(f"year {num1} is not a leap year")
     else :
         print(f"year {num1} is a leap year")
